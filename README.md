@@ -32,7 +32,23 @@
 	}
 
 
+/*Profit or Loss*/
 
+	int purchasePrice{};
+	int salePrice{};
+
+	cout << "What was the purchase price of the item" << endl;
+	cin >> purchasePrice;
+	cout << "What about the sale price of the item" << endl;
+	cin >> salePrice;
+
+	if ((salePrice - purchasePrice) > 0) {
+		cout << "Profit!" << endl;
+	}
+	else {
+		cout << "Loss!" << endl;
+	}
+		
 
 
 
