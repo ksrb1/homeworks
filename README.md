@@ -50,7 +50,7 @@
 	}
 		
 
-	/*Name that Shape*/
+/*Name that Shape*/
 
 	int shapeSides{};
 
